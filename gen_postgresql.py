@@ -30,7 +30,7 @@ for tmp in range (NUM_OF_INSERTS):
    # INSERT INTO t_friends(name, chill) VALUES ("Sal", 4");
    rname = tc1+tc2+tc3; # random name
    rchill = random.randint(0,9)
-   rall = "INSERT INTO t_friends (name, chill) VALUES (\"" + str(rname) + "\"," + str(rchill) + ");"
+   rall = "INSERT INTO t_friends (name, chill) VALUES (\'" + str(rname) + "\'," + str(rchill) + ");"
 
    print(rall);
    f.write("\n")
